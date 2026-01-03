@@ -41,10 +41,10 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ type: "spring", stiffness: 200, damping: 20, mass: 1 }}
             >
-                Capai potensi akademik terbaik bersama{""}
+                Capai potensi akademik terbaik bersama{" "}
                 <span className="relative inline-block">
                     <span className="absolute inset-0 bg-pink-600/20 -skew-y-1 rounded-md"></span>
-                    <span className="relative text-pink-400">Bimbel Learning Prestasi.</span>
+                    <span className="relative text-pink-400">Bina Learning Prestasi.</span>
                 </span>
             </motion.h1>
             

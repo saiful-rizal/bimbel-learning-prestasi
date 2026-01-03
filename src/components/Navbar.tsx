@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import { MenuIcon, XIcon } from "lucide-react";
 import { useState } from "react";
 import { motion } from "motion/react";
@@ -20,13 +21,9 @@ export default function Navbar() {
             >
                 {/* Logo Area */}
                 <a href="#" className="flex items-center gap-2 group">
-                    {/* Menggunakan Teks sebagai placeholder jika logo belum ada */}
                     <span className="text-lg font-bold text-slate-100 tracking-tight group-hover:text-pink-400 transition-colors">
-                        Bimbel Learning Prestasi
+                        Bina Learning Prestasi
                     </span>
-                    
-                    {/* Jika Anda punya gambar logo, uncomment baris bawah ini dan hapus span diatas */}
-                    {/* <img className="h-8.5 w-auto brightness-0 invert" src="/pixels-reactjs/assets/logo.svg" alt="logo" width={130} height={34} /> */}
                 </a>
 
                 {/* Desktop Links */}
@@ -97,4 +94,4 @@ export default function Navbar() {
             </div>
         </>
     );
-}
+}h

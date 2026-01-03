@@ -57,7 +57,7 @@ export default function FeaturesSection() {
                         viewport={{ once: true }}
                         transition={{ type: "spring", stiffness: 240, damping: 70, mass: 1 }}
                     >
-                        <img className="h-full w-auto" src="/pixels-reactjs/assets/features-showcase-1.png" alt="Suasana Belajar" width={1000} height={500} />
+                        <img className="h-full w-auto" src="/assets/bimbel.png" alt="Suasana Belajar" width={1000} height={500} />
                     </motion.div>
                     <motion.div className="md:col-span-1"
                         initial={{ y: 150, opacity: 0 }}
@@ -65,7 +65,7 @@ export default function FeaturesSection() {
                         viewport={{ once: true }}
                         transition={{ delay: 0.15, type: "spring", stiffness: 320, damping: 70, mass: 1 }}
                     >
-                        <img src="/pixels-reactjs/assets/features-showcase-2.png" alt="Detail Belajar" width={1000} height={500} className="hover:-translate-y-0.5 transition duration-300" />
+                        <img src="/assets/bimbel.png" alt="Detail Belajar" width={1000} height={500} className="hover:-translate-y-0.5 transition duration-300" />
                         {/* Ukuran judul dikembalikan ke aslinya */}
                         <h3 className="text-[24px]/7.5 text-slate-300 font-medium mt-6">Fokus Pemahaman, Bukan Sekadar Hafalan</h3>
                         <p className="text-slate-300 mt-2">Kami membimbing siswa untuk memahami logika di balik setiap materi, memastikan prestasi yang bertahan lama.</p>

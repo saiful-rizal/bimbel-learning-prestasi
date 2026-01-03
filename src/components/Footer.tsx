@@ -16,7 +16,7 @@ export default function Footer() {
             >
                 {/* Logo diganti dengan Teks */}
                 <a href="#" className="flex flex-col gap-1">
-                    <span className="text-xl font-bold text-white tracking-tight">Bimbel Learning Prestasi</span>
+                    <span className="text-xl font-bold text-white tracking-tight">Bina Learning Prestasi</span>
                     <span className="text-[10px] text-pink-500 uppercase tracking-widest">Bimbel Terpercaya</span>
                 </a>
 
