@@ -1,4 +1,3 @@
-'use client'
 import SectionTitle from "../components/SectionTitle"
 import { pricingData } from "../data/pricing";
 import type { IPricing } from "../types";

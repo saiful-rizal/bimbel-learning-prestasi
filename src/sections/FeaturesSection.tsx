@@ -1,4 +1,3 @@
-'use client'
 import SectionTitle from "../components/SectionTitle";
 import { ArrowUpRight } from "lucide-react";
 import { motion } from "motion/react";

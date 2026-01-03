@@ -1,4 +1,3 @@
-'use client'
 import { footerData } from "../data/footer";
 import { DribbbleIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from "lucide-react";
 import { motion } from "motion/react";

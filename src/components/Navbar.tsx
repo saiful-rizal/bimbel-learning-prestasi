@@ -1,5 +1,3 @@
-'use client';
-
 import { MenuIcon, XIcon } from "lucide-react";
 import { useState } from "react";
 import { motion } from "motion/react";
@@ -94,4 +92,4 @@ export default function Navbar() {
             </div>
         </>
     );
-}h
+}
